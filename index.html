@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MedikIDE</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>MedAI</h1>
+            <p>Assistente Educacional de Saúde com IA</p>
+        </header>
+
+        <main>
+
+            <div id="chatBox" class="chat-box">
+
+                <div class="message bot">
+                    Olá! Descreva seus sintomas.
+                </div>
+
+            </div>
+
+            <div class="input-area">
+
+                <textarea
+                    id="userInput"
+                    placeholder="Ex: Estou com dor de garganta e febre.">
+                </textarea>
+
+                <button id="sendBtn">
+                    Analisar
+                </button>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
